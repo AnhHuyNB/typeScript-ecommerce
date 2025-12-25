@@ -1,0 +1,16 @@
+{
+  "hello": "Xin chào",
+  "welcome": "Chào mừng bạn đến với ứng dụng",
+  "formRegister": {
+    "title": "Đăng Ký",
+    "name": "Tên đăng nhập",
+    "register": "Đăng ký",
+    "email": "Gmail hoặc Sđt",
+    "placehoderName": "Nhập tên đăng ký",
+    "placehoderEmail": "Nhập gmail hoặc số điện thoại",
+    "password": "Mật khẩu",
+    "placehoderPassword": "Nhập mật khẩu",
+    "confirmPassword": "Xác nhận mật khẩu",
+    "placehoderConfirmPassword": "Nhập lại mật khẩu"
+  }
+}

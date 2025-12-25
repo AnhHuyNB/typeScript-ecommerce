@@ -1,10 +1,15 @@
 import { createContext } from "react";
 
-const Theme = {
+export const Theme = {
     BLUE: 'blue-theme',
     PINK: 'pink-theme'
 } as const
 
-type themeType = (typeof Theme)[keyof typeof Theme]
+export type themeType = (typeof Theme)[keyof typeof Theme]
 
-const theme = createContext('')
+type ThemeContextProps = {
+    theme?: themeType,
+    setTheme?: (Theme: themeType) => void
+}
+
+export const themeContext = createContext<ThemeContextProps>({})

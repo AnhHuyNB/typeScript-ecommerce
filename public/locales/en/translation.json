@@ -1,0 +1,16 @@
+{
+  "hello": "Hello",
+  "welcome": "Welcome to my app",
+  "formRegister": {
+    "title": "Form Register",
+    "name": "User Name",
+    "register": "Register",
+    "email": "Gmail or Phone",
+    "placehoderName": "User Name",
+    "placehoderEmail": "Gmail",
+    "password": "Password",
+    "placehoderPassword": "Enter password",
+    "confirmPassword": "Confirm Password",
+    "placehoderConfirmPassword": "Enter your password again"
+  }
+}
